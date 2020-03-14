@@ -1,0 +1,203 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+h1, h2, h3, h4, h5, h6{
+  text-transform: uppercase;
+font-family: 'Abril Fatface', cursive;
+}
+
+ul, li{
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+#title{
+  background: url('../img/bg.jpg') no-repeat center center / cover;
+  color: #000;
+padding-bottom: 200px;
+  height: 100%;
+
+}
+
+  .navbar-brand img{
+    width: 100px;
+    height: 60px;
+  }
+  .container-fluid{
+    padding: 3% 15% 7%;
+  }
+  h1{
+
+    font-size: 50px;
+    line-height: 1.5;
+  }
+  .welcome{
+    text-align: center;
+  }
+  .welcome__title{
+    transition: all 0.5s ease;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 60px;
+  }
+  .welcome__title:hover{
+    color: #0c9463;
+  }
+  .features__title:hover{
+    color: #0c9463;
+  }
+  .pricing__text:hover{
+    color: #0c9463;
+  }
+  .card__name:hover{
+    color: #0c9463;
+  }
+  .gallery__text:hover{
+    color: #0c9463;
+  }
+  .footer__text:hover{
+    color: #fff;
+  }
+  .card__price{
+    font-size: 24px;
+    color: #0c9463;
+  }
+.gallery__text{transition: all 0.5s ease;}
+.footer__text{
+  transition: all 0.5s ease;
+}
+  .welcome__text{
+    font-size: 30px;
+  }
+  .navbar{
+    padding-bottom: 0 0 9.5rem ;
+  }
+
+  .navbar-brand{
+
+  font-family: 'Pattaya', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  }
+
+  .nav-item{
+    padding: 0 20px;
+    /* color: #000; */
+  }
+  .nav-link{
+    font-size: 1.2rem;
+    font-family: 'Bree Serif', serif;
+  }
+
+  p{
+    font-family: 'Bree Serif', serif;
+  }
+
+
+  .features-div{
+    margin-top: 40px;
+  }
+    .features__img-1{
+      border-radius: 10px;
+      margin-top: 40px;
+    }
+      .features__text{
+        font-size: 20px;
+
+      }
+      .pricing__title{
+        font-size: 20px;
+      }
+      .pricing__text{transition: all 0.5s ease;}
+      .card__name{transition: all 0.5s ease;}
+        .features__title{
+          transition: all 0.5s ease;
+          text-align: center;
+          font-size: 40px;
+
+        }
+.features__img-1{}
+  #pricing{
+    padding: 100px;
+  text-align:center;
+
+  }
+  .pricing-column{
+    padding: 3% 2%;
+  }
+  .card__name{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  #images{}
+    .images-column{}
+      .photo{}
+        .photo__img{
+
+        }
+        .thumb img {
+            -webkit-filter: grayscale(0);
+            filter: none;
+            border-radius: 5px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 5px;
+        }
+
+        .thumb img:hover {
+            -webkit-filter: grayscale(1);
+            filter: grayscale(1);
+        }
+
+        .thumb {
+            padding: 5px;
+        }
+        .gallery__text{
+          text-transform: uppercase;
+          font-size: 30px;
+          text-align: center;
+          margin-bottom: 30px;
+        }
+        #footer{
+          margin-top: 40px;
+          background: url('../img/bg1.jpg') no-repeat center center / cover;
+          color: #000;
+padding-bottom: 10px;;
+          /* padding: 7% 15%; */
+          text-align: center;
+        }
+        .footer__text{
+          margin-top: 30px;
+          font-size: 17px;
+        }
+        .social-icons{
+          margin: 20px 10px;
+        }
+        .social-icons a{
+          margin-right: 30px;
+      color: #000;
+          font-size: 22px;
+        }
+        .social-icons a:hover{
+        text-decoration: none;
+          color: #0c9463;
+        }
+        .icons{
+          padding-top: 15px;
+        justify-content: center;
+        align-items: center;
+        }
+@media screen and (max-width: 1325px) {
+.features__text{
+  text-align: right;
+}
+.features-info{
+  padding-left: 5px;
+}
+}
+@media screen and (max-width: 992px) {
+  .nav-item{
+    text-align: center;
+  }
+}
